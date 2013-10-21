@@ -1,0 +1,36 @@
+{
+    "manifest_version": 2,
+    "name": "My application",
+    "version": "0.9",
+
+    "icons": {
+        "16": "./16x16.png",
+        "32": "./32x32.png",
+        "48": "./48x48.png",
+        "128": "./128x128.png"
+    },
+
+    "permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+
+    "background" : {
+        "page": "background.html"
+    },
+
+    "content_scripts":[{
+        "matches": [
+            "http://*/*"
+        ],
+        "js": [
+            "script_in_content.js"
+        ]
+    }],
+
+    "browser_action": {
+        "default_title": "Application",
+        "default_icon" : "./16x16.png"
+    }
+}

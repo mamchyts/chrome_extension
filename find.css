@@ -1,0 +1,56 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.body{
+    margin: 5px;
+    display: block;
+    width: 600px;
+    padding: 5px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px #555555;
+    border: 1px solid #f0f0f0;
+    font-size: 13px;
+}
+
+.carsRows table{
+    margin: 0 auto;
+    width: 100%;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+    .carsRows table th{
+        height: 20px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .carsRows table td{
+    }
+
+    .carsRows table .make{
+        width: 380px;
+    }
+
+    .carsRows table .addBtn{
+        width: 80px;
+    }
+
+#loader{
+    display: none;
+    opacity: 0.7;
+    background-color: #9B9696;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+    #loader img{
+        margin: 50px 0 0 290px;
+    }

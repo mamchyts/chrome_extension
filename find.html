@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta   http-equiv="content-type" content="text/html; charset=UTF-8">
+        <script type="text/javascript"    src="find.js"></script>
+        <link   type="text/css"           rel="stylesheet" href="find.css">
+        <title>Grabber</title>
+    </head>
+    <body>
+        <div class="body">
+            <div class="carsRows" id="popup_cars_rows">
+                <h3 style="text-align: center; margin: 5px 0;">Найденные данный странице</h3>
+                <form name="cars_form" action="" method="get" id="popup_cars_form">
+                    <table id="popup_cars_table">
+                        <thead>
+                            <tr>
+                                <th class="make">Вакансия</th>
+                                <th class="info">Город</th>
+                                <th class="addBtn">&nbsp;</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            <div class="carsRows" id="popup_cars_rows_none" style="display: none;">
+                <h3 style="text-align: center; margin: 5px 0;">Ничего не найдено на странице</h3>
+            </div>
+            <div id="loader"><img src="ajax-loader.gif" title="Loding" alt="Loading"></div>
+        </div>
+    </body>
+</html>
