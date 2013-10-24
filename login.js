@@ -5,11 +5,6 @@
  */
 window.onload = function(){
 
-
-    document.getElementById('popup_login_form').elements[0].onkeydown = function(e){
-        console.log(e);
-    }
-
     // set some events handlers
     document.getElementById('popup_login_form').onsubmit = function(obj){
         // fade popup
