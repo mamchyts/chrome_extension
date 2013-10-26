@@ -76,7 +76,7 @@ function renderRow(row)
 
     td1.innerHTML = vacancy.join(' ');;
     td2.innerHTML = city.join(' ');
-    td3.innerHTML = (row.url === '')?'<b><em>Добавлено</em></b>':'<input type="button" value="Дабавить" name="cars[]" class="button"><input type="hidden" value="'+row.url+'" name="url[]">';
+    td3.innerHTML = (row.url === '')?'<b><em>Добавлено</em></b>':'<input type="button" value="Добавить" name="cars[]" class="button"><input type="hidden" value="'+row.url+'" name="url[]">';
     td3.children[0].addEventListener('click', function(){addToGrabber(event)}, false);
 }
 
